@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>students</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userLogin</servlet-name>
+    <servlet-class>com.gkb.UserServlet.userLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>allUser</servlet-name>
+    <servlet-class>com.gkb.UserServlet.allUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addUser</servlet-name>
+    <servlet-class>com.gkb.UserServlet.addUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userDel</servlet-name>
+    <servlet-class>com.gkb.UserServlet.userDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userUpdate</servlet-name>
+    <servlet-class>com.gkb.UserServlet.userUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>allClass</servlet-name>
+    <servlet-class>com.gkb.classServlet.allClass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateClass</servlet-name>
+    <servlet-class>com.gkb.classServlet.updateClass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addClass</servlet-name>
+    <servlet-class>com.gkb.classServlet.addClass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delClass</servlet-name>
+    <servlet-class>com.gkb.classServlet.delClass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userSearch</servlet-name>
+    <servlet-class>com.gkb.UserServlet.userSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>stuProfile</servlet-name>
+    <servlet-class>com.gkb.UserServlet.stuProfile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>stuGrade</servlet-name>
+    <servlet-class>com.gkb.stuServlet.stuGrade</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>classGradeServlet</servlet-name>
+    <servlet-class>com.gkb.stuServlet.classGradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateGrade</servlet-name>
+    <servlet-class>com.gkb.stuServlet.updateGrade</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>userLogin</servlet-name>
+    <url-pattern>/userLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>allUser</servlet-name>
+    <url-pattern>/allUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addUser</servlet-name>
+    <url-pattern>/addUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userDel</servlet-name>
+    <url-pattern>/userDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userUpdate</servlet-name>
+    <url-pattern>/userUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>allClass</servlet-name>
+    <url-pattern>/allClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateClass</servlet-name>
+    <url-pattern>/updateClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addClass</servlet-name>
+    <url-pattern>/addClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delClass</servlet-name>
+    <url-pattern>/delClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userSearch</servlet-name>
+    <url-pattern>/userSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stuProfile</servlet-name>
+    <url-pattern>/stuProfile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stuGrade</servlet-name>
+    <url-pattern>/stuGrade</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>classGradeServlet</servlet-name>
+    <url-pattern>/classGradeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateGrade</servlet-name>
+    <url-pattern>/updateGrade</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
